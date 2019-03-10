@@ -120,7 +120,7 @@ class AddEntry extends Component {
 
   render() {
     const metaInfo = getMetricMetaInfo();
-    console.log(this.props.alreadyLogged);
+    
     if (this.props.alreadyLogged) {
       return (
         <View style={styles.center}>
